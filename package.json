@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "next": "12.1.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "response-time": "^2.3.2",
     "styled-components": "^5.3.5"
   },
   "devDependencies": {
