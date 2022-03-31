@@ -1,0 +1,30 @@
+{
+  "arrowParens": "avoid",
+  "bracketSpacing": true,
+  "printWidth": 100,
+  "semi": true,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "importOrder": [
+    "^@sesamecare/(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "^components/(.*)$",
+    "^constants",
+    "^containers/(.*)$",
+    "^fixtures/(.*)$",
+    "^gecko/(.*)$",
+    "^gql/(.*)$",
+    "^hooks/(.*)$",
+    "^lib/(.*)$",
+    "^pages/(.*)$",
+    "^providers/(.*)$",
+    "^services/(.*)$",
+    "^utils/(.*)$",
+    "^[../]",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true
+}
