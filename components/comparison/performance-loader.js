@@ -17,7 +17,7 @@ async function load(path, count) {
 
   for (let i = 0; i < count; i++) {
     results.push(await loadPage(path));
-    await sleep(100);
+    await sleep(200);
   }
 
   return results;

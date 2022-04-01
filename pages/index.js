@@ -28,7 +28,7 @@ export default function Home() {
             <h2>CSS modules &rarr;</h2>
           </a>
 
-          <a href="/comparison?count=30" className={styles.card}>
+          <a href="/comparison?count=15" className={styles.card}>
             <h2>Run performance tests &rarr;</h2>
           </a>
         </div>

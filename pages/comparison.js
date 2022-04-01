@@ -1,11 +1,9 @@
 import Page from '../components/styled-components/Page';
-import Header from '../components/styled-components/Header';
 import Comparison from '../components/comparison/Comparison';
 
-function ComparisonPage({ count = 20 }) {
+function ComparisonPage({ count = 15 }) {
   return (
     <Page>
-      <Header />
       <Comparison count={count} />
     </Page>
   );
