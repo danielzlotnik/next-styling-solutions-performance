@@ -5,7 +5,8 @@ async function loadPage(path) {
     const response = await fetch(path, {
       method: 'HEAD',
     });
-    return response.headers.get('X-Response-Time');
+    const responseTimeStr = response.headers.get('X-Response-Time');
+    return parseFloat(responseTimeStr.replace('ms', ''));
   } catch (e) {
     console.error(e);
   }
