@@ -8,6 +8,10 @@ function CSSModules() {
     <Page>
       <Header />
       <MoviesGrid movies={data} />
+      <MoviesGrid movies={data} />
+      <MoviesGrid movies={data} />
+      <MoviesGrid movies={data} />
+      <MoviesGrid movies={data} />
     </Page>
   );
 }
